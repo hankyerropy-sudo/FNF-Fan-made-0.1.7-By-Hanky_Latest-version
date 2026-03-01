@@ -272,16 +272,12 @@ body{background:var(--darker);font-family:'VT323',monospace;color:#fff;overflow:
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  
+  z-index: 9999;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: clamp(6px,1.8vw,14px);
-  padding: 10px 8px;
-  
-  background: rgba(0,0,0,.78);
-  backdrop-filter: blur(6px);
-  z-index: 999; /* ดันให้อยู่บนสุด */
+  gap: 10px;
 }
 .arrow-btn{
   width:clamp(58px,14vw,86px);height:clamp(58px,14vw,86px);
